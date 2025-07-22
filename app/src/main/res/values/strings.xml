@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Smart Job Reminder</string>
+    <string name="add_job">Add Job</string>
+    <string name="deadline">Deadline: %1$s</string>
+    <string name="exact_alarm_permission">Exact Alarm Permission</string>
+    <string name="used_to_schedule_job_reminders_24_hours_before_their_deadlines_required_on_android_12_and_up">Used to schedule job reminders 24 hours before their deadlines. Required on Android 12 and up.</string>
+    <string name="enable_exact_alarm_scheduling">Enable Exact Alarm Scheduling</string>
+    <string name="notification_permission">Notification Permission</string>
+    <string name="allows_the_app_to_show_job_reminder_notifications_required_on_android_13_and_higher">Allows the app to show job reminder notifications. Required on Android 13 and higher.</string>
+    <string name="allow_reminder_notifications">Allow Reminder Notifications</string>
+    <string name="boot_reschedule_permission">Boot Reschedule Permission</string>
+    <string name="lets_the_app_reschedule_reminders_when_your_device_restarts_you_may_need_to_allow_background_activity_for_this_app">Lets the app reschedule reminders when your device restarts. You may need to allow background activity for this app.</string>
+    <string name="allow_boot_reminder_reschedule">Allow Boot Reminder Reschedule</string>
+    <string name="important_permissions_are_missing_reminders_may_not_work">Important permissions are missing. Reminders may not work.</string>
+    <string name="grant_now">Grant Now</string>
+    <string name="title_activity_add_job">AddJobActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="job_title">Job Title</string>
+    <string name="company_name">Company Name</string>
+    <string name="permissions">Permission Screen</string>
+</resources>

@@ -1,0 +1,33 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SmartJobReminder" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <item name="background">@color/white_light</item>
+    </style>
+
+    <style name="Theme.SmartJobReminder" parent="Base.Theme.SmartJobReminder" />
+
+    <style name="TextStyle">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="CardBackground">
+        <item name="cardBackgroundColor">@color/white</item>
+        <item name="cardElevation">@dimen/_4sdp</item>
+    </style>
+
+    <style name="Theme.SmartJobReminder.Fullscreen" parent="Theme.SmartJobReminder">
+        <item name="android:actionBarStyle">
+            @style/Widget.Theme.SmartJobReminder.ActionBar.Fullscreen
+        </item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+    </style>
+
+    <style name="ThemeOverlay.SmartJobReminder.FullscreenContainer" parent="">
+        <item name="fullscreenBackgroundColor">@color/light_blue_600</item>
+        <item name="fullscreenTextColor">@color/light_blue_A200</item>
+    </style>
+</resources>
